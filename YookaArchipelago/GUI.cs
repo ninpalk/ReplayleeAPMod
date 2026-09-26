@@ -1,4 +1,4 @@
-using Il2Cpp;
+﻿using Il2Cpp;
 using UnityEngine;
 using MelonLoader;
 using Il2Cpp;
@@ -26,6 +26,11 @@ namespace YookaArchipelago
         // Debug menu fields
         private Vector2 debugMenuScrollPosition = Vector2.zero;
 
+        // Short, friendly in-game notification used by gameplay gates.
+        private string popupMessage = "";
+        private float popupUntil = 0f;
+        private GUIStyle popupStyle = null!;
+
         // GUI Styles
         private GUIStyle boxStyle = null!;
         private Texture2D backgroundTexture = null!;
@@ -44,6 +49,7 @@ namespace YookaArchipelago
             LoadSettings();
             MelonEvents.OnGUI.Subscribe(DrawArchipelagoUI, 100);
             MelonEvents.OnGUI.Subscribe(DrawDebugMenu, 99);
+            MelonEvents.OnGUI.Subscribe(DrawPopupMessage, 101);
         }
 
         private void InitializePreferences()
@@ -96,6 +102,31 @@ namespace YookaArchipelago
         {
             showDebugMenu = !showDebugMenu;
             Cursor.visible = showDebugMenu;
+        }
+
+
+        public void ShowPopupMessage(string message, float seconds = 5f)
+        {
+            popupMessage = message ?? "";
+            popupUntil = Time.realtimeSinceStartup + Mathf.Max(0.5f, seconds);
+        }
+
+        private void DrawPopupMessage()
+        {
+            if (string.IsNullOrEmpty(popupMessage) || Time.realtimeSinceStartup > popupUntil)
+                return;
+
+            if (popupStyle == null)
+            {
+                popupStyle = new GUIStyle(GUI.skin.box);
+                popupStyle.wordWrap = true;
+                popupStyle.fontSize = 22;
+                popupStyle.normal.textColor = Color.white;
+            }
+
+            float width = Mathf.Min(760f, Screen.width - 40f);
+            var rect = new Rect((Screen.width - width) * 0.5f, 45f, width, 70f);
+            GUI.Box(rect, popupMessage, popupStyle);
         }
 
         private void DrawArchipelagoUI()

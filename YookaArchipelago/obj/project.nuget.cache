@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "mnTvsCObxSk=",
+  "success": true,
+  "projectFilePath": "E:\\Downloads\\YookaArchipelagoMod_capital_key_gate_event_logging\\YookaArchipelagoMod\\YookaArchipelago.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ninpa\\.nuget\\packages\\archipelago.multiclient.net\\6.7.0\\archipelago.multiclient.net.6.7.0.nupkg.sha512",
+    "C:\\Users\\ninpa\\.nuget\\packages\\lavagang.melonloader\\0.7.1\\lavagang.melonloader.0.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -4,7 +4,7 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <GamePath>/run/media/thomas/Game/SteamLibrary/steamapps/common/Game07</GamePath>
+        <GamePath>E:/SteamLibrary/steamapps/common/Game07</GamePath>
         <ModPath>$(GamePath)/Mods</ModPath>
         <OutputPath>$(ModPath)</OutputPath>
         <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
@@ -43,11 +43,11 @@
         <Private>false</Private>
       </Reference>
       <Reference Include="Il2CppParadoxNotion">
-        <HintPath>..\..\..\..\..\run\media\thomas\Game\SteamLibrary\steamapps\common\Game07\MelonLoader\Il2CppAssemblies\Il2CppParadoxNotion.dll</HintPath>
+        <HintPath>E:\SteamLibrary\steamapps\common\Game07\MelonLoader\Il2CppAssemblies\Il2CppParadoxNotion.dll</HintPath>
         <Private>false</Private>
       </Reference>
       <Reference Include="Il2CppPlaytonic.Core">
-        <HintPath>..\..\..\..\..\run\media\thomas\Game\SteamLibrary\steamapps\common\Game07\MelonLoader\Il2CppAssemblies\Il2CppPlaytonic.Core.dll</HintPath>
+        <HintPath>E:\SteamLibrary\steamapps\common\Game07\MelonLoader\Il2CppAssemblies\Il2CppPlaytonic.Core.dll</HintPath>
         <Private>false</Private>
       </Reference>
       <Reference Include="MonoMod">
@@ -55,7 +55,7 @@
         <Private>false</Private>
       </Reference>
       <Reference Include="Unity.Localization">
-        <HintPath>..\..\..\..\..\run\media\thomas\Game\SteamLibrary\steamapps\common\Game07\MelonLoader\Il2CppAssemblies\Unity.Localization.dll</HintPath>
+        <HintPath>E:\SteamLibrary\steamapps\common\Game07\MelonLoader\Il2CppAssemblies\Unity.Localization.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine">
         <HintPath>$(GamePath)\MelonLoader\Dependencies\Il2CppAssemblyGenerator\UnityDependencies\UnityEngine.dll</HintPath>
@@ -85,11 +85,15 @@
         <HintPath>$(GamePath)\MelonLoader\Dependencies\Il2CppAssemblyGenerator\UnityDependencies\UnityEngine.InputModule.dll</HintPath>
         <Private>false</Private>
       </Reference>
+      <Reference Include="UnityEngine.PhysicsModule">
+        <HintPath>$(GamePath)\MelonLoader\Dependencies\Il2CppAssemblyGenerator\UnityDependencies\UnityEngine.PhysicsModule.dll</HintPath>
+        <Private>false</Private>
+      </Reference>
       <Reference Include="UnityEngine.UI">
-        <HintPath>..\..\..\..\..\run\media\thomas\Game\SteamLibrary\steamapps\common\Game07\MelonLoader\Il2CppAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>E:\SteamLibrary\steamapps\common\Game07\MelonLoader\Il2CppAssemblies\UnityEngine.UI.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.UIElementsModule">
-        <HintPath>..\..\..\..\..\run\media\thomas\Game\SteamLibrary\steamapps\common\Game07\MelonLoader\Il2CppAssemblies\UnityEngine.UIElementsModule.dll</HintPath>
+        <HintPath>E:\SteamLibrary\steamapps\common\Game07\MelonLoader\Il2CppAssemblies\UnityEngine.UIElementsModule.dll</HintPath>
       </Reference>
     </ItemGroup>
 

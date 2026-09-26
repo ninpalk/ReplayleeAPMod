@@ -11,6 +11,7 @@ public static class Data
         {"Level_03", "MM"},
         {"Level_04", "CC"},
         {"Level_05", "GaGa"},
+        {"Level_07", "HT"},
     };
     public static string GetWorld(string scene)
     {
@@ -41,5 +42,13 @@ public static class Data
         {"Jump", PlayerMoves.Moves.Jump},
     };
 
-    public static Dictionary<string, List<string>> apLocations = new Dictionary<string, List<string>>();
+    public static Dictionary<string, string> apNameToQuillStat = new Dictionary<string, string>()
+    {
+        {"TT Quill", "QuilliesCollectedJungle"},
+        {"GlGl Quill", "QuilliesCollectedGlacier"},
+        {"MM Quill", "QuilliesCollectedSwamp"},
+        {"CC Quill", "QuilliesCollectedCasino"},
+        {"GaGa Quill", "QuilliesCollectedSpace"},
+    };
+
 }

@@ -1,0 +1,54 @@
+Yooka-Replaylee Archipelago - 40 Pagie Piece Mapping
+
+Archipelago check names are <world> - Pagie Piece 1 through 8.
+GlGl special case: Replaylee identifier 0 / PagiePiecePickup7 maps to Archipelago check GlGl - Pagie Piece 7.
+
+TT / Tribalstack Tropics
+1 | Level_01_Jungle_Platformicity1 | game id 1 | PagiePiecePickup1
+2 | Level_01_Jungle_Platformicity1 | game id 2 | PagiePiecePickup2
+3 | Level_01_Jungle_Design | game id 3 | PagiePiecePickup3
+4 | Level_01_Jungle_VillageChallenges | game id 4 | PagiePiecePickup4
+5 | Level_01_Jungle_Platformicity3 | game id 5 | PagiePiecePickup5
+6 | Level_01_Jungle_Platformicity3 | game id 6 | PagiePiecePickup6
+7 | Level_01_Jungle_VillageChallenges | game id 7 | PagiePiecePickup7
+8 | Level_01_Jungle_Platformicity1 | game id 8 | PagiePiecePickup8
+
+GlGl / Glitterglaze Glacier
+1 | Level_02_Glacier_Platformicity1 | game id 1 | PagiePiecePickup1
+2 | Level_02_Glacier_Platformicity3 | game id 2 | PagiePiecePickup2
+3 | Level_02_Glacier_Platformicity1 | game id 3 | PagiePiecePickup3
+4 | Level_02_Glacier_Platformicity3 | game id 4 | PagiePiecePickup4
+5 | Level_02_Glacier_Platformicity3 | game id 5 | PagiePiecePickup5
+6 | Level_02_Glacier_Platformicity3 | game id 6 | PagiePiecePickup6
+7 | Level_02_Glacier_Design | game id 0 | PagiePiecePickup7
+8 | Level_02_Glacier_IcymetricPalace | game id 8 | PagiePiecePickup 8
+
+MM / Moodymaze Marsh
+1 | Level_03_Swamp_Platformicity3 | game id 1 | PagiePiecePickup1
+2 | Level_03_Swamp_Platformicity3 | game id 2 | PagiePiecePickup2
+3 | Level_03_Swamp_Platformicity3 | game id 3 | PagiePiecePickup3
+4 | Level_03_Swamp_Platformicity3 | game id 4 | PagiePiecePickup4
+5 | Level_03_Swamp_Platformicity3 | game id 5 | PagiePiecePickup5
+6 | Level_03_Swamp_Platformicity3 | game id 6 | PagiePiecePickup6
+7 | Level_03_Swamp_Platformicity3 | game id 7 | PagiePiecePickup7
+8 | Level_03_Swamp_Platformicity3 | game id 8 | PagiePiecePickup8
+
+CC / Capital Cashino
+1 | Level_04_Casino_Platformicity1 | game id 1 | PagiePiecePickup1
+2 | Level_04_Casino_Platformicity1 | game id 2 | PagiePiecePickup2
+3 | Level_04_Casino_Platformicity1 | game id 3 | PagiePiecePickup3
+4 | Level_04_Casino_Platformicity1 | game id 4 | PagiePiecePickup4
+5 | Level_04_Casino_Invisible1_Challenge | game id 5 | PagiePiecePickup5
+6 | Level_04_Casino_Platformicity1 | game id 6 | PagiePiecePickup6
+7 | Level_04_Casino_Platformicity1 | game id 7 | PagiePiecePickup7
+8 | Level_04_Casino_Platformicity1 | game id 8 | PagiePiecePickup8
+
+GaGa / Galleon Galaxy
+1 | Level_05_Space_Platformicity3 | game id 1 | PagiePiecePickup 1
+2 | Level_05_Space_SadCaptain | game id 2 | PagiePiecePickup 2
+3 | Level_05_Space_GravityRoom | game id 3 | PagiePiecePickup 3
+4 | Level_05_Space_Platformicity1 | game id 4 | PagiePiecePickup 4
+5 | Level_05_Space_Platformicity3 | game id 5 | PagiePiecePickup 5
+6 | Level_05_Space_Platformicity3 | game id 6 | PagiePiecePickup 6
+7 | Level_05_Space_Platformicity3 | game id 7 | PagiePiecePickup 7
+8 | Level_05_Space_Platformicity3 | game id 8 | PagiePiecePickup 8
