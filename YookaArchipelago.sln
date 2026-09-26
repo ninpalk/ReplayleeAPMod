@@ -1,6 +1,8 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YookaArchipelago", "YookaArchipelago\YookaArchipelago.csproj", "{818B887E-415C-4FD0-84A2-ECFDED1B3064}"
+# Visual Studio Version 18
+VisualStudioVersion = 18.10.12217.157 stable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YookaArchipelago", "YookaArchipelago.csproj", "{7BD0F328-80AF-D91B-18EA-E48A327ABC6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +10,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{818B887E-415C-4FD0-84A2-ECFDED1B3064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{818B887E-415C-4FD0-84A2-ECFDED1B3064}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{818B887E-415C-4FD0-84A2-ECFDED1B3064}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{818B887E-415C-4FD0-84A2-ECFDED1B3064}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BD0F328-80AF-D91B-18EA-E48A327ABC6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BD0F328-80AF-D91B-18EA-E48A327ABC6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BD0F328-80AF-D91B-18EA-E48A327ABC6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BD0F328-80AF-D91B-18EA-E48A327ABC6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96E61F03-EBE3-4F42-922C-7D9F75AFA72A}
 	EndGlobalSection
 EndGlobal
