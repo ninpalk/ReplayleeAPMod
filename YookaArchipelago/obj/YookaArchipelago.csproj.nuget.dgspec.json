@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Downloads\\YookaArchipelagoMod_capital_key_gate_event_logging\\YookaArchipelagoMod\\YookaArchipelago.csproj": {}
+    "E:\\Downloads\\YookaArchipelagoMod_by_tommadness_and_ninpalk\\YookaArchipelagoMod\\YookaArchipelago.csproj": {}
   },
   "projects": {
-    "E:\\Downloads\\YookaArchipelagoMod_capital_key_gate_event_logging\\YookaArchipelagoMod\\YookaArchipelago.csproj": {
+    "E:\\Downloads\\YookaArchipelagoMod_by_tommadness_and_ninpalk\\YookaArchipelagoMod\\YookaArchipelago.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Downloads\\YookaArchipelagoMod_capital_key_gate_event_logging\\YookaArchipelagoMod\\YookaArchipelago.csproj",
+        "projectUniqueName": "E:\\Downloads\\YookaArchipelagoMod_by_tommadness_and_ninpalk\\YookaArchipelagoMod\\YookaArchipelago.csproj",
         "projectName": "YookaArchipelago",
-        "projectPath": "E:\\Downloads\\YookaArchipelagoMod_capital_key_gate_event_logging\\YookaArchipelagoMod\\YookaArchipelago.csproj",
+        "projectPath": "E:\\Downloads\\YookaArchipelagoMod_by_tommadness_and_ninpalk\\YookaArchipelagoMod\\YookaArchipelago.csproj",
         "packagesPath": "C:\\Users\\ninpa\\.nuget\\packages\\",
-        "outputPath": "E:\\Downloads\\YookaArchipelagoMod_capital_key_gate_event_logging\\YookaArchipelagoMod\\obj\\",
+        "outputPath": "E:\\Downloads\\YookaArchipelagoMod_by_tommadness_and_ninpalk\\YookaArchipelagoMod\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ninpa\\AppData\\Roaming\\NuGet\\NuGet.Config",
